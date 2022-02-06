@@ -69,21 +69,27 @@ header ul li {
 
 p {
     font-size: 20px;
+    display: inline-block;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 0 10px 4px;
     font-weight: normal;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 0px;
     font-weight: normal;
 }
 
 h3 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: normal;
+}
+
+/*About Me Section*/
+h2 .about-me {
+    font-size: ;
 }
