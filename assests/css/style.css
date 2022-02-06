@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: ;
+
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading {
+    display: inline-flex;
+    justify-content: right;
+}
+
+header nav {
+    display: flex
+}
+
+#logo {
+    height: 35px;
+    display: inline-flex;
+}
+
+/*::before?? add numbers*/
+header a {
+    text-decoration: none;
+    color: turquoise;
+}
+
+header ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    float: right;
+    padding: 0;
+    margin-right: 45px;
+    font-size: 13px;
+}
+
+#links {
+    float: right;
+}
+
+.hero {
+    height: 50px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 200px;
+    color: turquoise;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0 0 10px 4px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: normal;
+}
