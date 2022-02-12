@@ -1,5 +1,4 @@
 * {
-    font-size: 20px;
     color: aquamarine;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -26,6 +25,7 @@ header {
     flex-direction: row;
     align-items: center;
     list-style-type: none;
+    font-size: 15px;
 }
 
 .items {
@@ -40,12 +40,115 @@ header {
 
 .items a:hover {
     color: aquamarine;
-    text-decoration: underline;
+    text-decoration: none;
 }
 /* End Heading */
 
-/* Hero Section */
 body {
     background-color: cornflowerblue;
 }
 
+.content {
+    margin-top: 250px;
+}
+
+/* Hero Section */
+h1, h2, h3 {
+    text-align: left;
+    margin-left: 200px;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    color: aquamarine;
+    margin-top: 10px;
+}
+
+/* End Heading*/
+
+/* Start About Me Section*/
+
+h3 {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+p {
+    margin-left: 200px;
+    margin-right: 900px;
+    color: white;
+}
+
+.solid-border {
+    max-width: 20%;
+    border-style: solid;
+    border-width: thin;
+    border-color: aquamarine;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.self-photo {
+    height: 250px;
+    width: 200px;
+    margin-top: -225px;
+    margin-left: 1200px;
+    border-radius: 45%;
+}
+/* End About Me Section*/
+
+
+/* Start Project Section*/
+.projects {
+    margin-top: 400px;
+}
+
+.github-link {
+    text-decoration: none;
+}
+
+/* End Project Section*/
+
+
+/* Start Contact Section*/
+.social-media {
+    border-style: none;
+    margin-top: 400px;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.social-border {
+    max-width: 20%;
+    border-style: solid;
+    border-width: thin;
+    border-color: aquamarine;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.social-links {
+    list-style-type: none;
+}
+
+img {
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.social-row {
+    margin-top: -50px;
+    margin-left: 1200px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+/* End Contact Section*/
