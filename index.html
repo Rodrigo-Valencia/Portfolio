@@ -11,7 +11,7 @@
   <body>
     <!--Navigation-->
     <header>
-      <nav class="header"></nav>
+      <nav class="header">
       <ul class="links">
         <li class="items">
           <a href="#About">About</a>
@@ -23,31 +23,34 @@
           <a href="#Contact">Contact</a>
         </li>
       </ul>
+      </nav>
     </header>
 
 
     <!--Hero Section-->
-    <div class="hero"></div>
-    <section id="About" class="content">
+    <div class="hero">
+    <section id="About">
       <h1>Hi, my name is</h1>
       <h2>Rodrigo Valencia</h2>
       <h3>Software Engineer</h3>
       
     </section>
+    </div>
 
     <!--About Me Section-->
-    <section>
-    <p class="solid-border">
-      I am currently enrolled in a full stack developer bootcamp with the University of Arizona. My goal is to become a font end developer working for start-up companies. 
-    <img class="self-photo" src="./assests/images/Self Photo.jpeg" alt="Self Photo"></p>
+    <section class="about-me">
+      <p class="solid-border"> I am currently enrolled in a full stack developer bootcamp with the University of Arizona. My goal is to become a font end developer working for start-up companies.</p>
+      <img class="self-photo" src="./assests/images/Self Photo.jpeg" alt="Self Photo">
     </section>
 
     <!-- Projects -->
     <section id="Projects" class="projects">
       <h3>My Projects</h3>
+      <div>
       <p class="solid-border">Here are some of the projects I have worked on.
       You can find more on <a class="github-link" href="https://github.com/rodvalencia2319" target="_blank">GitHub</a>
-    </p>
+      </p>
+      </div>
     <div class="project-container">
       <ul class="project-list">
         <li class="project-html">
@@ -67,8 +70,8 @@
     <!-- Contact -->
     <section id="Contact" class="social-media">
       <h3>Social Media</h3>
-      <p class="social-border">Here are all the places you can find me on the Internet. Feel free to reach out and say hello!</p>
-      <ul class="social-row">
+      <p class="solid-border">Here are all the places you can find me on the Internet. Feel free to reach out and say hello!</p>
+      <ul class="social-container">
         <li class="social-links">
           <a class="github-link" href="https://github.com/rodvalencia2319" target="_blank">
           <img src="./assests/images/github.png" alt="GitHub Icon"></a>
@@ -91,6 +94,7 @@
     <!--Footer-->
     <footer>
       <div class="footer">
+        <p>Thank you for visiting!</p>
 
       </div>
     </footer>

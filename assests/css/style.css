@@ -1,48 +1,30 @@
 * {
-    color: aquamarine;
-    font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    padding-left: 20px;
-}
-
-img {
-    margin-left: 50px;
-    height: 50px;
-    width: 50px;
-    float: inherit;
-}
-
-/* Heading */
-header {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    height: 70px;
     padding: 0;
-    z-index: 2;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+header {
+    width: 100%;
+    background-color:black;
 }
 
 .links {
-    position:absolute;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     list-style-type: none;
-    font-size: 15px;
+    padding: 30px 50px 30px;
 }
 
 .items {
-    text-align: left;
-    justify-content: space-between;
+    text-align: center;
 }
 
 .items a {
     display: block;
-    padding: 20px;
-    color: white;
+    color: aquamarine;
 }
 
 .items a:hover {
@@ -50,15 +32,36 @@ header {
     text-decoration: none;
     transform: scale(1.3);
 }
-/* End Heading */
 
-body {
-    background-color: cornflowerblue;
+.hero {
+    padding: 100px 30px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 35px;
 }
 
-.content {
-    margin-top: 250px;
+.solid-border {
+    width: 50%;
+    padding: 30px 40px 30px;
+    margin: 0px 30px 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: aquamarine;
+    border-radius: 5px;
 }
+
+.solid-border p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.self-photo {
+    width: 70%;
+    padding: 0 30px 30px;
+}
+
 
 /* Hero Section */
 h1, h2, h3 {
@@ -91,40 +94,30 @@ p {
     float: inherit;
 }
 
-.solid-border {
-    max-width: 20%;
-    border-style: solid;
-    border-width: thin;
-    border-color: aquamarine;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-
-.self-photo {
-    float: right;
-    max-width: 100%;
-    height: 250px;
-    width: 200px;
-    border-radius: 45%;
-}
 /* End About Me Section*/
 
 
 /* Start Project Section*/
-.projects {
-    margin-top: 400px;
-}
 
+.projects h3 {
+    padding: 100px 30px 30px;
+}
 .github-link {
     text-decoration: none;
+    color: aquamarine;
 }
 
 .project-container {
-    text-align: center;
-    position: relative;
-    
+    width: 100%;
+    padding: 30px 40px 30px;
+    margin: 0px 30px 30px;
 }
 
+.project-list img {
+    padding: 0 30px 30px;
+    height: 70px;
+    width: 70px;
+}
 .project-list {
     display: flex;
     flex-direction: row;
@@ -143,41 +136,107 @@ p {
 
 
 /* Start Contact Section*/
-.social-media {
-    border-style: none;
-    margin-top: 400px;
-    position: relative;
-}
-
-.social-border {
-    max-width: 20%;
-    border-style: solid;
-    border-width: thin;
-    border-color: aquamarine;
-    border-radius: 5px;
-    margin-top: 5px;
+.social-media h3 {
+    padding: 100px 30px 20px;
 }
 
 .social-links {
     list-style-type: none;
 }
 
-.social-row {
-    position: relative;
-    text-align: center;
+.social-links img {
+    padding: 0 30px 30px;
+    height: 70px;
+    width: 70px;
+}
+
+.social-container {
+    width: 100%;
+    padding: 30px 0px 30px;
+    margin: 0px 0px 30px;
     display: flex;
     flex-direction: row;
 }
 /* End Contact Section*/
 
 footer {
-    margin-top: 200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 30px 30px;
+    background-color: black;
 }
 
-@media screen and (max-width: 300px) {
-    .items {
-        float: none;
-        width: 100%;
+.footer p {
+    color: aquamarine;
+    display: block;
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        margin: 0 auto;
     }
     
+    .items {
+        text-align: left;
+    }
+
+    .self-photo {
+        width: 60%;
+        height: 500px;
+        padding: 0 30px 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .links {
+        display: flex;
+        flex-direction: row;
+        margin-right: 500px;
+        text-align: left;
+        justify-content: space-between;
+    }
+    
+    .items a:hover {
+        transform: scale(1.3);
+    }
+    
+    .hero {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    
+    .solid-border {
+        width: 20%;
+        margin-left: 100px;
+    }
+    
+    .self-photo {
+        width: 15%;
+        height: 15%;
+        margin-left: 1200px;
+        margin-top: -350px;
+    }
+
+    
+    /* Start Project Section*/
+    .projects h3 {
+        padding: 100px 100px 30px;
+    }
+    
+    .project-list {
+        margin-left: 1170px;
+        margin-top: -150px;
+    }
+
+    .social-media h3 {
+        padding: 100px 100px 20px;
+    }
+    
+    .social-container {
+        margin-left: 1170px;
+        margin-top: -150px;
+    }
+    /* End Project Section*/
 }
