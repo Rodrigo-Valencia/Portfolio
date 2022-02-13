@@ -10,12 +10,14 @@ body {
 header {
     width: 100%;
     background-color:black;
+    padding: 30px 30px 30px;
 }
 
 .links {
     display: flex;
     list-style-type: none;
     padding: 30px 50px 30px;
+    justify-content: space-between;
 }
 
 .items {
@@ -132,6 +134,18 @@ p {
     transform: scale(1.5);
 }
 
+.project-html p {
+    color: aquamarine;
+    list-style-type: none;
+    text-align: center;
+}
+
+.project-javascript p {
+    color: aquamarine;
+    list-style-type: none;
+    text-align: center;
+}
+
 /* End Project Section*/
 
 
@@ -178,8 +192,15 @@ footer {
         margin: 0 auto;
     }
     
-    .items {
+    .links {
         text-align: left;
+        display: flex;
+        flex-direction: row;
+        margin-right: 100px;
+    }
+
+    .links a {
+        font-size: 20px;
     }
 
     .self-photo {
@@ -196,6 +217,10 @@ footer {
         margin-right: 500px;
         text-align: left;
         justify-content: space-between;
+    }
+
+    .items a {
+        font-size: 15px;
     }
     
     .items a:hover {
