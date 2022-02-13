@@ -14,5 +14,3 @@ This is my portfolio. Includes a little bit about me, my projects, and where you
 ### Link
 [Link to the deployed website](https://rodvalencia2319.github.io/Portfolio/)
 
-## Reference
-![Screenshot of index.html] (./assests/images/Portfolio Screenshot.png)
